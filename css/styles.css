@@ -1,0 +1,23 @@
+/* Google Maps */
+#map{
+    height: 400px;
+    width: 100%;
+}
+
+#infowindow-content .title {
+    font-weight: bold;
+}
+
+#infowindow-content {
+    display: none;
+}
+
+#map #infowindow-content {
+    display: inline;
+}
+/* /Google Maps */
+#msg{
+    position: absolute;
+    right:0;
+    z-index: 90;
+}
